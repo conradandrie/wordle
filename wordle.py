@@ -1,4 +1,4 @@
-##imports
+#imports
 import time
 import os
 import sys
@@ -6,7 +6,7 @@ import random
 from time import sleep
 from random import randint
 
-##colours
+#colours
 Red = "\033[0;31m"
 Green = "\033[0;32m"
 Orange = "\033[0;33m"
@@ -30,7 +30,7 @@ invisible='\033[08m'
 reverse='\033[07m'
 reset='\033[0m'
 
-##wordbank
+#wordbank
 
 wordbank = ['about','above','abuse','actor','acute','admit','adopt','adult','after','again','agent','agree','ahead','along','alter','among','anger','angle','angry','apart','apple','apply','aware','badly','baker','bases','basic','basis','beach','began','begin','begun','being','below','bench','billy','birth','black','blame','blind','block','blood','board','boost','booth','bound','brain','brand','bread','break','breed','brief','bring','broad','broke','brown','build','built','buyer','chest','chief','child','china','chose','civil','claim','class','clean','clear','click','clock','close','coach','coast','could','count','court','cover','craft','crash','cream','crime','cross','crowd','crown','curve','cycle','daily','dance','dated','dealt','death','dying','eager','exist','extra','faith','false','fault','fiber','field','fifth','fifty','fight','final','first','fixed','flash','fleet','floor','fluid','focus','force','forth','forty','funny','giant','given','glass','globe','japan','jimmy','joint','jones','judge','known','label','large','laser','later','laugh','layer','learn','lease','least','leave','legal','level','lewis','light','limit','links','lives','local','logic','loose','lower','lucky','lunch','lying','magic','major','maker','march','maria','match','maybe','mayor','meant','media','metal','month','moral','mouth','movie','music','needs','never','mewly','night','noise','north','noted','novel','nurse','occur','ocean','offer','often','order','other','ought','paint','panel','paper','party','peace','peter','phase','phone','photo','piece','pilot','pitch','place','prize','proof','proud','prove','queen','quick','quiet','quite','radio','seven','shall','shape','share','sharp','sheet','shelf','shell','shift','shirt','shock','shoot','short','shown','sight','since','sixth','sixty','sized','skill','sleep','slide','small','smart','smile','smith','smoke','solid','solve','sorry','sound','super','sweet','thick','thing','think','third','those','three','trend','trial','tried','tries','truck','truly','trust','truth','twice','upper','upset','urban','usage','usual','valid','value','video','voice','worth','would','wound','write','wrong','wrote','yield','young','youth','zebra']
 
@@ -38,7 +38,7 @@ with open("wordleword.txt") as file_object:
     wordleword = file_object.read()
 counter=0
 
-##Fancy write
+#fancy write
 def clear(t):
   time.sleep(t)
 def p(t):
