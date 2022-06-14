@@ -1,2 +1,1 @@
-# This is my attempt at wordle using python
-:))
+# This is my attempt at wordle using python :))
